@@ -6,7 +6,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
-
 def preprocess_data(
     input_path="preprocessing/heart_disease_raw/heart_disease_uci.csv",
     output_dir="preprocessing/heartDisease_preprocessing"

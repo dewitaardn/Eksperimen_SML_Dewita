@@ -7,7 +7,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 def preprocess_data(
-    input_path="preprocessing/heart_disease_raw/heart_disease_uci.csv",
+    input_path="heart_disease_raw/heart_disease_uci.csv",
     output_dir="preprocessing/heartDisease_preprocessing"
 ):
     df = pd.read_csv(input_path)
